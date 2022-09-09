@@ -1,0 +1,1900 @@
+This is a graded discussion: 10 points possible
+due Jun 12
+
+27
+
+AY
+
+Introduction to Data Visualization
+
+ 
+
+ 
+
+3c> = SCicusc LJ Ocak
+NO) Oe NO Os
+We Cee ao QC Ae We
+
+Tt
+
+>) Modules
+
+Resources
+
+® Assignments
+
+ 
+
+are (https://northeastern.instructure.com/courses/108806/modules/items/7 167936)
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167939)
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167943)
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167947)
+(https://northeastern.instructure.com/courses/108806/modules/items/7167950)
+(https://northeastern.instructure.com/courses/108806/modules/items/7167954)
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167958)
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167961)
+(https://northeastern.instructure.com/courses/108806/modules/items/7167965)
+
+(https://northeastern.instructure.com/courses/108806/modules/items/7167970)
+
+9 EN (https://northeastern.instructure.com/courses/108806/modules/items/7 167974)
+
+ 
+
+[> (https://northeastern.instructure.com/courses/108806/modules/items/7 167978)
+
+(https://northeastern.instructure.com/courses/108806/modules/items/7 167981)
+
+Instructions:
+Initial posts addressing primary prompt due by Sunday, 11:59 pm EST.
+
+e Write a minimum of 250 words for each of the discussion questions below.
+
+Primary Prompt:
+
+Please go through the following tutorial and provide the insights you learn. Describe the
+steps you take for Introduction to Data Visualization with Matplotlib(Python)/ggplot2(R) and
+attach your accomplishment certificate to your response. Choose either R or Python to
+complete the learning path.
+
+*** To be eligible for grading, you must complete the tutorial and attach the certificate to
+your submission.***
+
+Secondary Prompt:
+
+There is no need for secondary responses to this discussion. You can like others’
+responses if you find them interesting.
+
+Unread [] V’ Subscribe
+
+ls)
+
+“Reply.
+hts» Kunal Sindhu (He/Him) (https://northeastern.instructure.com/courses/108806/users/174722) .
+| Jun 6, 2022
+Hi Everyone,
+
+| completed "Introduction to Data Visualization with Matplotlib"
+The course was informative and challenging for me.
+
+| learned about the structure of plots and the functions used for the purpose. | added data to axes and
+learned how to label the axes. | also got to know about making grids of subplots with subplot(<rows>,
+<columns=) function.
+
+We can create time series plots in python easily by importing time series data into the plot function. |
+understood how to annotate a time-series graph.
+
+| made some bar charts using basic python functions like ax.bar() and created stacked bar charts. | learned
+to create boxplots and scatterplot using ax.boxplot() and ax.scatter() function respectively.
+
+In the last chapter, | learned to make figures to share. | learned to switch between styles using
+pit.style.use() function. The best thing about this chapter was the visualization automation in python using
+‘for' loop and repeating it after a given condition and change. At last | learned how to save file with a name
+and a given dpi.
+The course helped me gain a good amount of knowledge about python's matplotlib library and its functions.
+
+Certificate DataCamp ALY 6070 Module 3.pdf
+(https://northeastern.instructure.com/users/174722/files/15770882?
+(https:/northeastern.instructure.com/users/174722/files/15770882/download?
+verifier=UN200LSMwjW4bT ZOIXNjZ65haZ5bHItSySZN Yohé6&download_frd=1)
+
+Thanks and Regards
+
+Kunal Sindhu
+
+Edited by Kunal Sindhu (https:/northeastem.instructure.com/courses/108806/users/174722) on Jun 7 at 3:39pm
+
+Reply (1 like)
+
+ihttps 2, Sachin Jha (https://northeastern.instructure.com/courses/108806/users/179827),
+Thursday
+
+Hello Everyone,
+So | got a chance to complete the tutorial "Introduction to Data Visualisation with ggplot2.
+
+o This was a very gripping and intense lesson having detailed discussion about this package and the
+numerous functions inside it.
+
+o We learnt about the various functions and steps undertaken to professionally visualise a data set in
+ggplot2, some of which we can summarize as below :
+
+© | ggplot2)| plots work best with data in the ‘long’ format, i.e., a column for every variable, and a row for
+every observation. Well-structured data saves us lots of time when making figures with ggplot2
+
+o ggplot graphics are built layer by layer by adding new elements. Adding layers in this methods allows
+extensive flexibility and customisation of plots.
+
+We use the following basic template for different types of plots in ggplot2
+
+ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>()
+Example : ggplot(mtcars, aes(x= mpg, y = wt) + geom ()
+
+Effect of car weights on fuel consumption
+
+global linear regression
+
+ 
+
+cyl
+e4
+@6
+@s
+
+am
+@o
+A‘
+
+Miles per gallon
+
+ 
+
+ 
+
+ 
+
+ 
+
+Weight of car (,1000 Ibs)
+1974 Motor Trend US magazine
+o In this simple scatterplot, we plotted the effect of weight on the fuel consumption of cars in miles per
+galon and concluded that the lighter cars give us better mileage and consume less fuel than the heavier
+
+ones.
+o Secondly, Box plots can also be used to detect outliers and visualize the distribution of a variable within
+a specified category.
+o By adding points to the boxplot, we can have a better idea of the number of measurements and of their
+distribution:
+
+ 
+        
+
+1
+od =
+
+DM po oS MN GOT Pees PEooPM = «P2 RF oRM Sd
+So we learnt the jitter and boxplot functions in this example.
+
+ggplot2 heatmap:
+
+Although heatmaps are not a recommended way to visualise data, analysts still consider it as an option. By
+studying heat maps, we came across functions such as
+
+© | scale_fill_gradient() | to provide extreme colors of the palette.
+9° scale_fill_distiller(), to provide a ColorBrewer palette.
+
+Example of aheatmap :
+
+ 
+
+In this heatmap, we expect the resale value of car models in hundred thousands, the darkest colors are
+having the highest whereas the whitest ones are having the lowest value.
+
+Faceting
+© | ggplot /has a special technique called faceting that allows us to split one plot into multiple plots based
+on a factor included in the dataset. We will use it to make a time series plot for each genus. The
+functions such as facet_wrap(), facet_grid(), margin plots, labelling facets were understood in Chapter
+3. We can take an example of a faceted plot below:
+
+Chaetodipus Dipodomys Neotoma
+
+1200-
+800 -
+400 -
+J ——
+0
+
+Onychomys Perognathus Peromyscus
+
+ceo 188 1g90 1995 2c
+Reithrodontomys Siamnerien 1980 1985 1990 1995 2000
+
+~~ Ae Seas
+o- . . 1 1 1 1 1 1 1 1
+1980 1985 1990 1995 2000 1980 1985 1990 1995 2000
+year
+
+GGplot 2 best practices and themes for all kinds of users:
+
+o Usually plots with white background look more readable when printed. Every single component of
+@ ggplot graph can be customized using the generic theme) | function, as we will see below. However,
+there are pre-loaded themes available that change the overall appearance of the graph without much
+effort.
+
+Overall | conclude that this tutorial and certification was quite informative and | would definitively want to
+utilise the Knowledge acquired in this tutorial for my future projects.
+
+Regards,
+
+Sachin jha
+
+wrap=1 &verifier=TRYrzTWr96Uu3TDde741nRM2voR2qC6wY JWotGHl)_ LY
+(https:/northeastern.instructure.com/users/179827/files/15789845/download?
+verifier=TRYrzI Wr9 6Uu3T Dde741nRM 2voR2qCéwYJWotGHl&download_frd=1)
+
+Edited by Sachin Jha (https:/mortheastem.instructure.com/courses/108806/users/179827) on Jun 9 at 1:15am
+
+S\Renly
+
+nee Asad Khalid (He/Him) (https:/northeastern.instructure.com/courses/108806/users/119764)
+
+< I y Thursday
+
+Hi Everyone,
+| completed "Intermediate Data Visualization with ggplot2" course and below are my findings;
+
+This course had four chapters "Statistics", 'Coordinates", "Facets" and "Best Practices". The knowledge
+learned from the first three chapters was then used to analyze and paint in graphs in the final chapter.
+certificate. pdf (https://northeastern.instructure.com/users/119764/files/15795107?2
+
+(https:/northeastern.instructure.com/users/119764/files/15795107/download?
+verifier=9alGyZTLGAjunrY 9Bb6um7piHSYsehdOovWoty2Q&download_frd=1)
+
+Findings:
+
+For me, this ggplot2 course builds on my knowledge from the introductory courses to produce meaningful
+explanatory plots. Statistics are calculated on the fly and | learned how Coordinates and Facets aid in
+communication. | also explored details of data visualization best practices with ggplot2 to help make sure |
+had a sound understanding of what works and why. By the end of the course, | had all the tools needed to
+make a custom plotting function to explore a large data set, combining statistics and excellent visuals.
+
+Regards,
+
+Asad Khalid
+)-| certificate. pdf (https://northeastern.instructure.com/files/15795111/download?
+
+download _frd=1&verifier=7h9iO00cttrg1 sumE ysWJeoAKTANOpEXATVY7214T)
+
+Reply (1 like)
+
+ 
+
+Murtaza Talvadi (He/Him) (https:/inortheastern.instructure.com/courses/108806/users/173333),
+{ Thursday
+
+Hi Everyone,
+Below are my learnings and insights from the course - Introduction to Data Visualization with ggplot2
+ggplot2 is a R tool for data visualization. It would not only increase the quality and elegance of any graph,
+
+but it will also help you to make it more quickly.
+
+ggplot2 can create nearly any form of plot. By defining such variables in the dataset, you may add the
+ggplot aesthetics (within the aes() argument). Variables that define color, size, form, and lines can also be
+specified. All subsequent geometric layers will recognize the aesthetics established here.
+
+We learned about the geom point can be used to create it. Also, the geom smooth, which by default draws
+a smoothing line (based on loess), may be adjusted to draw the line of best fit by specifying method='Im’.
+(below example)
+
+Area Vs Population
+
+ 
+
+ 
+
+e state
+e ew
+40000:
+° IN
+e e
+° * MI
+e
+c 3 e ® e © OH
+So
+g 7? @ ew
+G e e
+s e e
+S e ee e
+Q 200000 4 ee popdensity
+@ 20000
+@ 40000
+@ 60000
+@ £0000
+
+ 
+
+Furthermore, we explored functions like coord_cartesian & scale_x_continuous. The coord_cartesian
+function prevents data loss during scaling. This is necessary when you zoom in on graphs that calculate
+statistics with non-scaled data (for example, when you draw a moving average using geom_ma ()). Setting
+the constraint using scale_x_date changes the basic data, causing the moving average to fail.
+
+For example : Loan data in a bank which have 2 category , Bad & Good Loans. This interpretation can be
+easily understand by this function.
+
+15000 -
+
+Loan.Quality
+= BadLoan
+
+10000 -
+
+— GoodLoan
+
+Credit.armount
+
+5000 -
+
+ 
+
+0-
+
+40 60
+Duration. of.Credit..in. months
+
+Source : financetrain.com
+
+At last we learned about the concept of Faceting. The facet approach divides the plot into a matrix of
+panels. Each faceting results in a little multiplier that represents a separate collection of data. Small
+multipliers are effective instruments for studying intelligent data. You can easily compare samples from
+various regions of your data to see if they are the same or different. This section explains how to fine-tune
+your edges, particularly how to interact with the grid.
+
+Faceting is classified into three types:
+
+facet null(): the default is a single plot.
+facet wrap() transforms a 1d ribbon of panels into a 2d ribbon.
+
+facet grid() generates a two-dimensional grid of panels determined by variables that comprise the rows and
+columns.
+
+2.0-
+
+15-
+3.50-
+
+we
+3284 . factor(cyl)
+e 4
+w
+2 3.00- > ec
+e
+2.75+ . ° 8
+
+5.0-
+
+4.0- ~
+
+10 15 20 25 30 35
+
+In conclusion, | learnt and studied in-depth principles of ggplot functions in R, which would undoubtedly aid
+me in my future analysis, research and projects.
+
+Reference :
+
+M. (2021, August 17). Coordinates in ggplot2 in R. Finance Train. Retrieved June 9, 2022, from
+https://financetrain.com/coordinates-in-ggplot2-in-r : _(https://financetrain.com/coordinates-in-ggplot2-in-
+r)
+
+ 
+Lay out panels in a grid — facet_grid. (n.d.). Ggplot2. Retrieved June 9, 2022, from
+https://ggplot2.tidyverse.org/reference/facet_grid.html ~
+(https://gg plot2.tidyverse.org/reference/facet_grid.html)
+
+ 
+
+ 
+
+| Certificate - Introduction to Data Visualisation with ggplot2..pdf (https:/northeastem.instructure.com/files/15796462/download?
+
+ 
+
+<> Reply. &b (1 like)
+(https: Benedict Eze (https:/northeastern.instructure.com/courses/108806/users/180436) .
+Thursday
+
+Hello everyone,
+Intermediate Data Visualization with R ggplot
+This was a 4 section course focusing on
+
+o Statistics - here | learned a variety of statistical methods and how to plot them. These methods include a
+variety of linear models, descriptive and inferential statistics (mean, standard deviation and confidence
+intervals) and custom functions. | also learned that some geom functions are associated with stat
+functions eg geom_count() = stat_sum(), geom_quartile() = stat_quartile() etc which can be called
+directly when generating a visualizing for a plot.
+
+o Coordinates - here | learned about the coord_cartesian() function in ggplot which can be used to control
+both the x and y planes of plots. It can be used to zoom in on a plot. Learnt about aspect ratios which |
+found very interesting. With aspect ratio, one can change the height to width ratio of a plot. Also, a
+typically used aspect ratio is a 1:1 ratio if the data is on the same scale. | also learned how to flip the x
+and y-axis using the cord_flip() function.
+
+o Facets layer- this is based on the idea of having to split large complex plots to produce multiple smaller
+plots that have the same coordinates system. Facet_grid() function can be used to split plots into rows
+and columns. Also, the facet_wrap() function can be used when you want both the x and y-axis to be
+free on every individual plot.
+
+o Best practices - here | learned the commonly discouraged plots in the data viz community: heat maps,
+pie charts, and dynamite plots. Heat maps are not a good visualization since it makes viewing individual
+results difficult and oftentimes might be misleading. plotting your data and facet wrapping it to view
+results might create a better visualization.
+
+Certificate Attached
+
+ggplot. pdf (https://northeastern.instructure.com/users/180436/files/15796647?
+wrap=1 &verifier=YgqgP7Q7HZBOAH18Uj7vVSDo8PMq7qrUh7nur4Vu) +
+(https:/northeastern.instructure.com/users/180436/files/15796647/download?
+verifier=YeqgP7Q7HzBOAH18Uj 7vVSDo8PMq7qrUh7nur4 Vu&download_frd=1)
+
+Regards
+Ben
+
+<\Reply, 4 (2 likes)
+
+(https: Bharat Goel (https:/northeastern.instructure.com/courses/108806/users/158076)
+Thursday
+Hello Everyone,
+| have completed the course Intermediate Data Visualization with ggplot2 and below are my learnings
+
+o Using ggplot, create scatter plots, boxplots, and time series plots.
+Set the global plot settings.
+Explain what faceting is and how to use it in ggplot.
+
+°o
+
+°
+
+o Change the appearance of an existing ggplot plot (including axis labels and color).
+o Create complex and personalized plots from data in a data frame.
+
+Brief Description
+
+ggplot2 is a plotting package that provides helpful commands to create complex plots from data in a data
+frame. It provides a more programmatic interface for specifying what variables to plot, how they are
+displayed, and general visual properties. Therefore, we only need minimal changes if the underlying data
+change or if we decide to change from a bar plot to a scatterplot. This helps in creating publication quality
+plots with minimal amounts of adjustments and tweaking.
+
+To create a ggplot, we will use the following basic template, which can be used for a variety of plot types:
+ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>()
+Building Plots Iteratively
+
+Creating plots with ggplot2 is an iterative process. We begin by defining the dataset we will use, laying out
+the axes, and selecting a geom. The plot is then modified to extract more information from it. To avoid
+overplotting, for example, we can add transparency (alpha). We can also add multiple colors for different
+variables by assigning them into a vector.
+
+Boxplots
+
+Boxplots are used to depict the outliers in the data set also perform the IQR calculations in order to get the
+main statistics of the data. Boxplots are useful summaries, but hide the shape of the distribution. For
+example, if there is a bimodal distribution, it would not be observed with a boxplot. An alternative to the
+boxplot is the violin plot (sometimes known as a beanplot), where the shape (of the density of points) is
+drawn.
+
+Heatmap
+
+Although heatmaps are not a recommended way to visualize data, analysts still consider it as an option. By
+studying heat maps, we came across functions such as
+
+o scale_fill_gradient() to provide extreme colors of the palette.
+° scale_fill_distiller() to provide a ColorBrewer palette.
+
+Faceting
+
+Faceting is a special technique in ggplot that allows the user to split one plot into multiple plots based on a
+factor in the dataset. The panels in the facets can be organized either by rows or columns.
+
+Ggplot best practices and themes
+
+When printed, plots with a white background are usually more readable. The generic theme() function can
+be used to customize every component of a ggplot graph, as we will see below. However, there are pre-
+loaded themes available that can easily change the overall appearance of the graph.
+
+Happy Learning!
+
+Best Regards
+Bharat Goel
+
+ 
+
+Bharat Goel_Datacamp_certificate visualization with _ggplot2.pdf
+(https://northeastern.instructure.com/users/158076/files/15797257?
+
+ 
+
+(https:/northeastern.instructure.com/users/158076/files/15797257/download?
+verifier=ayj7RYZtHUz8p9 OyDQ9JWzV 2KRCwYqXxOZcJqydcv&download_frd=1)
+
+S\Renly
+chftps:), Akshat Gautamchand Kothari (https://northeastern.instructure.com/courses/108806/users/174516) .
+Thursday
+
+Hello everyone,
+
+| completed the "Introduction to Data Visualization with Matplotlib" course during which | learned numerous
+things and came across various methods to perform data visualization. Some of the highlights of the course
+are discussed below:
+
+In the first chapter, | learned about the axes of graphs which are meaningful when visualizing the data. |
+generated multiple small graphs in a single frame with the use of matplotlib.subplots(). Subplots() function
+allows the creation of an array of axes to display multiple graphs together. | made use of this function to
+display temperature and precipitation each month for Austin and Seattle weather data.
+
+During the second chapter, | came across various plots for plotting the time series between particular
+ranges as well as displaying them in different colors to differentiate them. | plotted the time series for CO2
+from climate change data between October 2008 to October 2015 which can be useful to see the trend and
+find the pattern from them using annotate().
+
+In the third chapter, | visualized the data with the help of various graphs such as bar charts, scatter plots,
+box plots, and histograms. | made use of bar charts to plot the number of medals won by each country
+along with stacks of gold, silver, and bronze medal for each country. Then | plotted a line graph to visualize
+the temperature in each month and additionally added the error bars to display the standard deviation of
+temperature. | used box plots to check the statistics of the height of medalists in Rowing and Gymnastics
+sports.
+
+After the visualization, | learned to save them using the python commands in the fourth chapter with specific
+dimensions as well modifications in the dpi, height, and width of the image.
+
+At the end of the course, | came across many new things and got good control over them such as error
+bars, histograms, etc. This course was informative to me.
+
+Certificate_Akshat. pdf (https://northeastern.instructure.com/users/174516/files/15798905?
+
+(https:/northeastern.instructure.com/users/174516/files/15798905/download?
+verifier=tTaL 1qOYGLGrE3PLR7VdFq9MCHyD6EBp98yhlf1C&download_frd=1)
+
+Thanks,
+Akshat Kothari
+
+S\Renly
+ihttps 2, Taiye Murtala (https://northeastern.instructure. com/courses/108806/users/173830)
+Friday
+
+Hello everyone,
+
+Data visualization is the practice of translating information into a visual context, such as a map or graph, to
+make data easier for the human brain to understand and pull insights from. The main goal of data
+visualization is to make it easier to identify patterns, trends and outliers in large data sets. The term is often
+used interchangeably with others, including information graphics, information visualization and statistical
+graphics.
+
+Data visualization is important for almost every career. It can be used by teachers to display student test
+results, by computer scientists exploring advancements in artificial intelligence (Al) or by executives looking
+to share information with stakeholders. It also plays an important role in big data projects. As businesses
+accumulated massive collections of data during the early years of the big data trend, they needed a way to
+quickly and easily get an overview of their data. Visualization tools were a natural fit.
+
+Visualization is central to advanced analytics for similar reasons. When a data scientist is writing advanced
+predictive analytics or machine learning (ML) algorithms, it becomes important to visualize the outputs to
+monitor results and ensure that models are performing as intended. This is because visualizations of
+complex algorithms are generally easier to interpret than numerical outputs.
+
+During my learning course, this was what i was able to understand.
+
+In the first chapter, i was able to understand the stat function which gave me an insight into linear models,
+descriptive and inferential statistics (mean, standard deviation, and confidence intervals), and custom
+functions. i was able to understand all the geom functions and and how it works. furthermore, i was able to
+able to understand the grouping of variables
+
+In the second chapter, Coordinates - here | learned about the coord_cartesian() function in ggplot which
+can be used to control both the x and y planes of plots. It can be used to zoom in on a plot. Learned about
+aspect ratios which | found very interesting. With aspect ratio, one can change the height to width ratio of a
+plot. Also, a typically used aspect ratio is a 1:1 ratio if the data is on the same scale. | also learned how to
+flip the x and y-axis using the cord_flip() function.
+
+in the last chapter which is the best practice i was able to understand the following
+Data visualization process flow
+
+Determine the decision you want to make.
+
+Identify the metrics that inform the decision.
+
+Develop the story you want to tell.
+
+Select the appropriate visual.
+
+Add relevant elements to the visual.
+
+Clearly label and review the visual.
+
+|| certificate-1. pdf (https://northeastern.instructure.com/files/15800165/download?
+
+Reply (1 like)
+
+in a Harish Bodasinghi (https://northeastern.instructure.com/courses/108806/users/179826)
+Friday
+Hi All,
+
+| have worked on the "Introduction to Data Visualization with Matplotlib" course to learn about data
+visualization.
+
+1st Module:
+Here we learn about the matplotlib library and visualizations on the data
+
+Initially we need to import matplotlib.pyplot sub modules, for creating a figure and axes we can use fig, ax=
+plt.subplots(),
+
+To show what we have plotted we can always use plt.show().
+
+To create multiple graphs in a single plot we can consider using matplotlib.subplots()
+
+The plots would not be understandable if we do not name the axes so to customize the x and y axes we
+can use the below functions
+
+ax.set_xlable(" ()")
+
+ax.set_ylabel(" ()")
+
+also the title adds so much meaning to the plot, it can be given with the function
+ax.set_title(" ")
+
+2nd Module:
+
+Here, plotting the time series data and its visualizations are being discussed. Inorder to visualize time
+series data we need to have pandas libraries so we begin by importing pandas as pd.
+#import pandas as pd
+
+then we read the dataset using for example:
+climate_change = pd.read_csv(‘climate_change.csv', parse_dates=['date"], index_col="date")
+
+we follow all the steps followed previously using matplotlib added to it we add the time series as
+relative_temp to y column using,
+ax.plot(climate_change.index,climate_change["relative_temp"])
+
+If we are dealing with two variables for example:
+ax.plot(climate_change.index, climate_change["co2"], color="b")
+ax2.plot(climate_change.index,climate_change["relative_temp"], color="r")
+
+We can also make use of twin axes function - ax.twinx() to share the x-axes.
+also for plotting time series we can this function - plot_timeseries(axes, x, y, color, xlabel, ylabel)
+
+Annotations are mandatory for imbibing text and date stamps in the plots for specific situations, we can use
+the below function to annotate;
+ax.annotate('>1 degree’, (pd. Timestamp('2015-10-06'), 1))
+
+3rd Module:
+
+Here in this module we have learnt the visualizations using different graphs such as bar charts, scatter
+plots, box plots, and histograms.
+
+different functions to be used are:
+
+examples:
+
+ax.bar(medals.index,medals["Gold"])
+
+ax.hist(mens_rowing[''Weight’])
+
+ax.boxplot([mens_rowing["Height"], mens_gymnastics["Height']])
+ax.scatter(climate_change["co2"],climate_change['relative_temp"]
+4th Module:
+
+In the final module of the course,
+
+learnt to save the figures as files, adjusting the look and feel, also to automate their creation based on input
+data.
+
+after creating the visualization we need to save it and we can do that by using savfig command.
+
+we can also change the size settings while savings the figures and that can be done by using;
+fig.set_size_inches([3,5])
+
+fig.savefig("figure_3_5.png")
+
+| have learnt new things while pursuing this course which is helpful for the visualizations.
+
+| am attaching the course completion certification below
+
+ 
+
+Data Visualization with Matplotlib in Python.pdf
+(https://northeastern.instructure.com/users/179826/files/15801045?
+(https:/northeastern.instructure.com/users/179826/files/15801045/download?
+verifier=pDeVe84wAuEXs2ZcérSNq8uVEZPmyrZz4iwf2ax3&download_frd=1)
+
+Thanks,
+
+Regards,
+Harish Bodasinghi.
+
+Reply  °%b
+
+4 i Melania Mendes (https://northeastern.instructure.com/courses/108806/users/167878)
+Saturday
+
+Hello everyone,
+
+In this course on data camp, | learned preliminary steps of performing an EDA using functions such as str()
+and creating scatter plot using
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+
+geom_point()
+
+Further, ways to amend the plot to get a smooth layer are by using the smooth function and generating the
+output as below.
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+geom_point() +
+stat_smooth(method = "lm", se = FALSE)
+
+ 
+
+o Importance of the stat_smooth function to eliminate the 95% confidence interval.
+o Comparing LOESS and linear regression smoothing on small regions of data.
+
+o Standard error ribbons, which show the 95% confidence interval of smoothing models.
+
+o Uisng stat_quantile to apply a quantile regression.
+
+o Stats outside geoms
+
+o Coordinate layers - coord catesian() / Aspect ratios
+
+e Coordinates vs scales
+
+o Double flipped axes
+
+o Polar coordinates
+
+o Facets layer based on the concept of quantitisation, facet labels and order which can be used to
+analyse eating behaviour between herbivore and carnivore.
+
+o Facet plotting spaces, facet wraps and margins, and the best practices of bar plots.
+
+o Heat maps use case scenarios - exploring the barley dataset to bring out trends and insights.
+
+° certificate _introtoggplot2_melania.pdf
+(https://northeastern.instructure.com/users/167878/files/15804295?
+wrap=1 &verifier=KqWfOJMhvior2S9 p2mBuw2Cf55hXivN9tPKpw8QVv) +
+(https:/northeastern.instructure.com/users/167878/flles/15804295/download?
+verifier=KqWfOJMhvlor2S9p 2mBuw2Cf5 5hXivN9tPKpw8QV&download_frd=1)
+
+Melania
+
+S\Renly
+
+chftps:), Raj Kantilal Tank (https://northeastern.instructure.com/courses/108806/users/169209) .
+Saturday
+
+Hello people,
+
+After Cleaning and Exploratory Data analysis course, | was wondering to learn visualization in either R or
+Python and | selected R to build my foundation even better with ggplot2 library.
+
+In addition to that, whatever the information We acquired by cleaning has to be represented into a form of a
+picture and that is called visualization to get insights and after making critical decision making.
+
+The course " Intermediate Data Visualization with GGplot2” consists of :
+
+1. Statistics:
+
+o In this, | created a scatterplot to know the relationship between two variable by using ggplot().
+
+eo Also added smooth layer with linear regression line. Linear regression by category wise.
+
+o Draw quantile regression line by stat_quantile() function.
+
+o Changed theme of the graph and confidence limit.
+
+2. Coordinates:
+
+o Setting up the coordinates to make the graph even better.
+
+o Also, used expand and clip, which set buffer margin and decide whether outside points are displayed or
+not, respectively.
+
+© Set and transform the coordinates
+
+eo Created bar graph and then transform the graph to horizontal by coord_flip().
+
+3. Facets:
+
+o Faceting splits the data into groups according to categorical feature
+
+o To facet the data, | can use facet_grid().
+
+o Use facet_wrap(), which separates level to one axis; however, wrap the data into columns and rows.
+
+4. Best Practices with GGplot(Heatmap, Dynamic plot, Heatmap):
+
+o Created side by side charts and maximize or minimize the size of it.
+o To know which independent variables are positively correlated with the independent feature, | can use
+heatmap. Also, by seeing at the legend and their color intensity, we can know the count correlation.
+o Line graph is used to represent and know the impact of a variable according to time.
+
+wrap=1 &verifier=fNHsaabol0rdQoFM0au0MueZC ybxyljOH44CMi1sr)_
+
+Thanks and regrads
+
+Raj Tank
+
+Edited by Raj Kantilal Tank (https:/mnortheastern.instructure.com/courses/108806/users/169209) on Jun 11 at 3:57am
+
+Rely 4
+
+ihttps 2, Dhruv Vishalkumar Gangwani (https://northeastern.instructure.com/courses/108806/users/172176)
+
+Saturday
+
+Hey everyone,
+
+| have completed the "Introduction to Data Visualization with Matplotlib". A few things that | have learned
+are as follows,
+
+Chapter 1: Introduction to Matplotlib
+Lb
+
+o
+
+Understood the implementation of the submodule of matplotllib library named "pyplot".
+
+o Learned to create a figure using subplots() method and adding data to the axis.
+
+Customizing the appearance of the plots using the parameters such as marker, color, and linestyle.
+Adding titles and labels to the axis.
+
+o To create an array of subplots by defining rows and columns beforehand in subplots() method.
+
+°o
+
+°o
+
+Chapter 2: Plotting time-series<,
+
+o | have learned to import the time series data using pandas method read_csv() and parse_dates
+parameter.
+o Learned to plot the time series data using matplotlib.
+o Plotting time series of different variables by creating a twin Axes that shares the x-axis using ax.twinx()
+
+ 
+
+400 4 + 1.25
+t 1.00
+380 5
+- 0.75
+4 r 0.50
+method. For example, 360
+- 0.25
+340 +
+r 0.00
+320 + + —0.25
+
+ 
+
+ 
+
+ 
+
+1960 1970 1980 1990 2000 2010
+
+o Annotating the time series using annotate() method.
+o Rotating the labels of the x-axis and y-axis by xticks() and yticks() methods.
+
+Chapter 3: Quantitative comparisons and statistical visualizations
+Lb
+
+o Learned to plot the bar graph using the bar() method.
+
+o Also, implemented the stacked bar graph using the "bottom" parameter of the bar() method. Additionally,
+add the legend to the graph.
+
+o To understand the distribution of the variable, implemented the histogram using hist() method of the
+matplotlib.
+
+o | have also learned the "step histogram" using the histtype parameter of the hist() method.
+
+o Additionally, | learned to add the error bars to the bar chart. The plot below depicts the same.
+
+ 
+
+200 5
+
+175 4
+
+150 5
+
+Height (cm)
+
+b H
+
+u ~ oOo N)
+Oo ul o ul
+
+N
+u
+L
+
+ 
+
+ 
+
+ 
+
+0-
+
+Rowing Gymnastics
+
+o | have plotted the boxplot and scatter plot using the boxplot() and scatter() methods.
+
+Chapter 4: Sharing visualizations with others
+o | learned to add styles such as "Solarize_Light2" and "ggplot’ to the plot using the style.use() method.
+°o Save the plot as png/jpg/others using the savefig() method.
+© | also learned to automate the visualization of the data.
+
+Overall, the course is easy and informative. | have attached my course completion certificate.
+
+certificate. pdf (https://northeastern.instructure.com/users/172176/files/15805133?
+wrap=1&verifier=PST5p6s5Ld1Xz3J6ncud8HhVkihKwuJ3UEtllvh1) +
+(https:/northeastern.instructure.com/users/172176/files/15805133/download?
+verifier=PST5pé6s5Ld1Xz3Jé6ncud8HhvkilhKwuJ3U Etllvhig&download_frd=1)
+
+Thanks,
+
+Dhruv
+
+Reply, &b
+
+«https: Simren Batra (https://northeastern.instructure.com/courses/108806/users/139706)
+
+Saturday
+
+This course by datacamp on “introduction to data visualization with matplotlib” was based on the python
+visualization package of matplotlib that helps us with creating graphs and plots to aid in creating better
+visualizations of the dataset. The course was divided into several steps which is mentioned below:
+
+. In this section we learned how to use the matplotlib package.
+. We customized the graphs appearance of the markers, the linstyle and colors of the lines.
+We learned how to add titles and labels to make the graph more informative.
+. Here, we were introduced to time series plots and learned how to read them as well as analyze them.
+. We created a time series by plotting two variables to the same subplot. We also learned to plot two
+different scales in different twin axes objects.
+6. The use of visualizations was done to compare data in a quantitative method by using bar charts,
+stacked bar charts, histograms and step histograms.
+7. We added error bars to the bar chart to quantify the difference in means and also calculated the
+standard deviation of each group.
+8. We created boxplots to let us know where the median distribution was, information about inter-quartile
+range and so on.
+9. The boxplots helped in identifying outliers in the dataset as well.
+10. We used scatter plots and ecoded them by color to identify the different time zones.
+11. Lastly we learned to save the visualization in different ways using matplotlib.
+
+aOR wWN =
+
+Rely 4
+(type) Manoritaa Kavati (She/Her) _(https://northeastern.instructure.com/courses/108806/users/179789)
+Saturday
+
+Hi Everyone,
+
+Data visualization is an important aspect of the analysis since it allows the organization to see the big
+picture and understand the numerous trends and patterns in the data. The primary goal of data visualization
+is to investigate and interpret the data. This module explains how to use the ggplot function to create a
+useful and meaningful data display.
+
+FINDINGS
+
+Introduction & Visible aesthetics:
+
+This module introduces us to several grammatical layers as well as aesthetic mapping. We must grasp the
+data and adhere to the grammatical layer, which includes aesthetics (axis, colour, fill, size, etc. ),
+geometrics (which presents the data on a plot, bar, line, histogram, etc. ), and themes (which control the
+grid, panel border, axis ticks, and other aspects of the plot).
+
+In the first segment, the mtcars dataset was used to demonstrate how a combination of aesthetics and
+geometrics may be used to produce a logical graphic. The geom point() and geom smooth() layers are the
+most commonly utilised, and they allow us to observe the scatter plot with a regression line. When the plot
+overlaps, it's ideal to use transparent or opaque so that all of the points are visible on the graph; for
+example, geom point(alpha = 0.20) says that all of the points are 20% opaque. We can also map colour to a
+dataset variable, which aids in assessing the commonality of all the variables under investigation.
+
+The function aes() aids in the consideration of all aesthetics in the plot, such as size, colour, fill, labels,
+shapes, and so on. The major purpose of this is to display the data in a variety of colours, forms, and sizes,
+while also labelling the variables and displaying the plot in several dimensions. Other approaches to
+improve the graph and make it more accurate and visually appealing are to use the scale function and
+labelling.
+
+Geometrics:
+
+There are 48 geometrics in this module, which takes us through the geom_*() routines. Large datasets,
+aligned values on a single axis, low precision data, and integer data are prioritised. Overplotting due to a
+huge dataset can be avoided by utilising functions to make plots or graphs opaque/transparent or by
+employing hollow shapes, which allows all of the data to be shown on the graph. To overcome points
+aligned to a single axis, poor precision data, and integer data, functions like position jitter() can be utilised.
+
+When we wish to look at a continuous variable by breaking it into bins, we use histograms. We can improve
+our data presentation by adjusting the histogram's binwidth, stack, and dodge, among other things. When
+comparing multiple types of data, on the other hand, we can utilise bar charts. Geom-bar() can be used in
+conjunction with stack or dodge to move the bars around. When it comes to numerous time series data, the
+optimal plot is a line plot. This allows us to visualise distinct categories over time using a line graph.
+
+Themes:
+The theme function has several elements such as text, rect, element blank, and others that enable us
+adjust the texts, grid, layout, legend, labelling, and other aspects of the figure. These routines allow us to
+place the legend on the plot, change the white space, plot margins, and more, all while maintaining a
+consistent look. The annotate() function can also be used to add a text or a curve to the graph.
+
+Regards,
+
+Manoritaa K
+| certificate. pdf (https://northeastern.instructure.com/files/15807874/download?
+
+download _frd=1 &verifier=ubg36TPIPKxbYuWUiObdD978eGc91Qt2B y4COLFM)
+
+ 
+
+Rely 4
+
+« Mahdieh Parchami (https://northeastern.instructure.com/courses/108806/users/127159)
+Saturday
+
+Hello everyone,
+
+| have completed the course “Intermediate Data Visualization with ggplot2. ggplot2 is a plotting package
+that provides helpful commands to create complex plots from data in a data frame.
+
+This course was about learning three layers in ggplot2. 1- Statistics 2- Coordinates 3- Facets. | learned the
+following useful materials from this course:
+
+o | used str() to find the structure of the mtcars data set then | used ggplot and added a smooth trend with
+geom_smooth function for the given x and y. | became familiar with some attributes geom_smooth() like
+method, se, group, span, and color. | used these attributes for visualization. Also, | did some exercises.
+the plot below is an example of my result.
+
+a
+
+we
+
+o | used stat_quantitle() with geom_jitter() to apply a quantile regression. Also, | did some exercises. the
+plot below is an example of my result.
+ 
+
+1
+-A 9 a 2
+
+o | became familiar with the stat_sum() and used it as a transparency solution. since it calculates the total
+number of overlapping observations and maps that onto the aesthetic size. Also, | did some exercises.
+the plot below is an example of my result.
+
+fey!
+
+o | became familiar with the coordinate layer to zoom in on plots.
+o | used coord. fixed() with geom_smooting() to set a specified ratio between the physical representation
+
+of data units on the axes. Also, | did some exercises. the plot below is an example of my result.
+
+Species
+™ setosa
+
+—© versicolor
+
+Sepal.width
+
+= virginica
+
+ 
+
+Sepal.Length
+o | learned coord_cartesian() and its arguments like the expand and clip. | found that the expand sets a
+buffer margin around the plot to protect data and axes from overlapping. And clip decided whether plot
+elements that would lie outside that plot panel are displayed or ignored.
+o | became familiar with coord_trans()
+o | became familiar with coord_flip(). | used this function to reverse the variables mapped onto x and y
+aesthetics. Also, | did some exercises. the plot below is an example of my result.
+
+ 
+
+fam
+Mo
+@:
+
+ 
+
+ 
+
+eount
+
+o | used coord_polar() to convert a planer x-y Cartesian plot to polar coordinates. it is useful for producing
+pie charts. Also, | did some exercises. the plots below are an example of my result.
+
+ 
+
+MRE NE EME é ef se ste & stw siv wiw Wo owinw wiv NAW
+
+wet
+sun "
+joes news ue
+70-
+weve NE
+s00-
+wes
+250- ow ENE 32-44
+10-22
+¥ a3
+a ° oe
+ace
+vwesve e 2-4
+0-2
+sw ese
+sow st
+
+sak
+
+o | used facet_grid() and facet_wrap() and found that how splits the data up into groups, based ona
+categorical or continuous variable. Also, | did some exercises. the plots below are an example of my
+
+result.
+Tam
+
+ 
+
+ 
+
+oe? 2980 aye2
+
+ppt
+
+thee ae ee
+
+20a 20
+
+Buen HARE
+
+| learned about the characteristics of a bad plot like style, structure, and content. And took some steps
+
+to improve a bad graph.
+| learned about Dynamic plots and heat maps and found that heat maps are useful if we have a small
+
+number of boxes and a clear pattern.
+
+‘vacaauary
+
+varlety
+
+Manchurins
+
+No. anz~
+
+Svansote~
+
+ 
+
+year
+
+Best,
+
+-| certificate-2. pdf (https://northeastern.instructure.com/files/15808498/download?
+
+download_frd=1&verifier=4fFokAgQz9HFEwyY PEgeF7Mkpn2F7HB32uQ1VuZQvt)
+
+<\Renly. Cy
+
+ 
+ihttps 2, Ritu Rochwani (https:/inortheastern.instructure.com/courses/108806/users/176307)
+Yesterday
+
+Hi Everyone,
+
+| have completed the certification “Intermediate Data Visualisation with ggplot’. Once the data has been
+cleaned, transformed and the research questions are known, it can be visualised to understand correlations
+among variables.
+
+o Any plot creation starts with the ggplot function where the data frame and aesthetics like x, y, fill, group
+are defined. Then layers are added on top of it to define the visual effects.
+
+o Adding a geom_bar() layer will create a bar chart, a geom_points() layer will create a scatter plot,
+geom_line() will create a line chart.
+
+© geom_smooth() will add a smocth trend line to default line chart.
+
+o Defining additional parameters within each geom_*() functions will also change the plot. For example, a
+smoothing method can be defined as “Im” to override the default loess method.
+
+ggplot(mtcars, aes(x=wt, y=mpg, color=fcyl)) + geom_point() + stat_smooth(method="Im", se=FALSE)
+
+ggplot(Vocab, aes(y=vocabulary, x=education, color=year_group)) + geom_jitter(alpha=0.25)
++ stat_smooth(method="Im"
+
+ 
+
+<
+
+mpg
+Hig
+
+ 
+
+ 
+
+\ wt . J
+
+y
+
+ 
+
+ 
+
+vocabulary
+
+ 
+
+education a
+
+o Summary statistics refers to a combination of location (mean or median) and spread (standard deviation
+or confidence interval). These metrics are calculated in stat_summary() by passing a function to
+the fun.data argument. mean_sdl(), calculates multiples of the standard deviation
+and mean_cl_normal() calculates the t-corrected 95% Cl.
+
+o Flip the axis when labels are long and interpretation is difficult.
+
+o Coordinates layer can be used to zoom-in to the charts.
+
+o Polar coordinates can be used when there are compass direction scales and time of the day scales. For
+example, below chart is for windspeed and direction data. ggplot(wind, aes(wd, fill = ws)) +
+geom_bar(width = 1) + coord_polar(start = -pi/16)
+
+count
+
+ 
+
+wd
+
+\
+
+o Facet_grid is used to split the data into groups on x, y or both axes. Facet_wrap layer is added when
+the number of categories is large on x, y or both axes.
+o |tis better to use alternatives to heatmaps as they can be confusing. For example,
+
+ggplot(barley, aes(x = year, y = yield, color = site, group = site, fill = site)) + stat_summary(fun.y = mean,
+geom = "line") + stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "ribbon", alpha = 0.1,
+color = NA)
+
+yield
+A
+\
+
+ 
+
+L . year
+
+Thanks,
+
+Ritu
+
+-| DataCamp_ggplot_RochwaniR. pdf (https:/ortheastem.instructure.com/files/15808997/download?
+
+ 
+
+download _frd=1 &verifier=4SObLoEeDAdxNvUBAQAIFZHJ8YKNISkKJWSCCDLrt)
+
+Rely 4
+y Ujjwala Komaragiri (https://northeastern.instructure.com/courses/108806/users/177666),
+Yesterday
+
+Hello everyone,
+
+| have completed Intermediate Data Visualization with ggplot2 in R and below are the few things that |
+learned from the course.
+
+Data Visualization
+
+Data visualization is the quickest and most effective method for understanding new and current data. Data
+scientists aim to expose the underlying properties of a dataset, such as various distributions, correlations,
+or other observable patterns, during the initial exploration phase.
+
+Statistics
+
+| have learnt about statistics linked with various geoms, such as smoothing and lines, Modifying
+stat_smooth in the first chapter of this course.
+
+Coordinates
+
+The space on which the data is plotted is referred to as the coordinate system of a plot. The location of
+geoms is determined by the plot's coordinate system, as well as the x and y position scale. We can use the
+coordinates layer to zoom in to a plot by setting limits.
+
+The main difference is that scale functions change the underlying dataset, which has an impact on
+computations performed by calculated geoms (such as histograms or smooth trend lines), but coordinate
+functions do not.
+
+Facets
+
+Facets allow you to divide a plot into numerous panes, each of which displays a portion of the dataset.
+have learnt to wrap facets, organize them in a grid, and add custom labelling in this section. Faceting
+divides data into groups based on a categorical variable, then depicts each group on its own panel. Here,
+Facet grid() is the best method for separating data into one or two categorical variables.
+
+Facet_wrap() is useful if you have a single variable with numerous levels and prefer to arrange the plots in
+a more space-efficient manner.
+
+Best Practices
+
+Here, we reviewed three plot designs - Heat maps, pie charts, and dynamite plots in the data visualization.
+We may also modify the size settings while saving the figures.
+
+Regards,
+Ujjwala
+
+Certificate-1.pdf (https://northeastern.instructure.com/users/177666/files/15809376?
+
+(https:/northeastern.instructure.com/users/177666/files/15809376/download?
+verifier=gvW3BPEjufnV HpcqFflgYAu8zV8Bc9 5DeQ7078bT &download_frd=1)
+
+Rely 4
+ihttps 2, Pratikraj Solanki (https://northeastern.instructure.com/courses/108806/users/176437)
+
+Yesterday
+
+The influence of pictorial representation gives more details to the data and by applying various visual
+methods, one can divert data into trends and specific patterns, which can be used for finding conclusions.
+For example, world health organizations used various charts mostly with different color patterns on the
+world map to publicize the covid-19 data.
+
+With an introduction to several grammatical layers and aesthetical mapping, the first chapter provides
+effective communication and visualization means for understanding the data and observe to the
+grammatical layer like the aesthetics can apply on-axis, color, fill, and size. geometrics which demonstrates
+the data on a plot, bar, line, histogram, etc., themes that control the grid, panel border, axis ticks, etc. of the
+plot.
+
+By practicing mtcars dataset, | can use the combination of aesthetic and geometrics for giving a sensible
+plot, and by applying geom_point and geom_smcoth(), | can generate the scatter plot. This also helps to
+differentiate the overlap by using the geom_point(alpha = percentages).
+
+The function aes() enhances aesthetics such as size, color, fill, labels, shapes, etc. to the plot. The aim of
+the method is to clarify the data in a variety of colors, shapes, and sizes, identifying the variables so the
+visual representation can be differentiating and display the plot in many dimensions. Scale function and
+labeling are the additional methods to increase the graph.
+
+The main highlighting behind going through this chapter is, to visualize the large datasets, associated
+values on a single axis, low precision data, and integer data. Overplotting can occur while analyzing a large
+dataset, however, this problem can be prevented by applying geometrics methods to get the plots or graphs
+transparent or making use of hollow shapes, this makes all the data visible on the graph, for instance,
+position_jitter() can be helped to decrease the points allied, and gives visual data with; single axis, low
+precision data, and integer data.
+
+The functions like binwidth, stack, and dodge, use to modify the histogram. Likewise, for comparing data, a
+bar chart can be used, so the used bar chart can be combined by Geom-bar() with stack and dodge
+arguments. A line plot can help to get a visual representation of time series, for example, in a project from
+the ALY 6050, where the students have to make an analysis of the shared values of Apple and Honeywell,
+the data is given in periods in which makes the time series, this can be showed by line plot, with mentioned
+arguments
+
+Themes provide several features, text, rect, element_blank, etc. These functions can aid to adjust the texts,
+grid, layout, legend, labeling etc. on generated visual data. Additionally, these allow to place the legend on
+the plot and revise the white space, and the edge of the plot therefore one can be able to get a consistent
+style. The annotate() function incorporates a text or a curve in the graph.
+| certificate_Introduction to Data Visualization. pdf (https:/mortheastem.instructure.com/ffiles/15812713/download?
+
+download _frd=1 &verifier=l0YYFh6b2fY2t1 DQz4rmGWE7cXdzuPW3N8e0Eddt)
+
+S\Renly
+ihttps 2, Krutarth Jaiswal (https://northeastern.instructure.com/courses/108806/users/174600) .
+Yesterday
+
+Hello Everyone,
+| have completed "Introduction to Data Visualization with Matplotlib”.
+
+Data visualization in plots and figures reveals underlying trends and provides insights. Data analysts and
+other data consumers benefit from good visualizations because they help you explain your data to others.
+This course taught me how to use Matplotlib, a robust Python data visualization package. Matplotlib offers
+the foundation for creating beautiful representations of a wide range of datasets. | learned how to construct
+visualizations for various types of data and how to adapt, automate, and share them.
+
+There are four major parts of this course. In the first part, | learned how to identify the axes and how to add
+data to them. | also learned how to use the subplot(rows>, columns>) function to create subplot grids.
+Importing time series data into the plot function in Python makes it simple to build time-series graphs. In
+addition, | was able to annotate a time-series graph.
+
+In the third chapter, | used several graphs such as bar charts, scatter plots, box plots, and histograms to
+depict the data. | used bar charts to show the number of medals each country has earned, as well as stacks
+of gold, silver, and bronze medals. Moreover, | utilized box plots to examine the statistics of medalists’
+height in the sports of rowing and gymnastics.
+
+Following the visualization, | learned how to save them using the python commands in the fourth chapter
+with precise measurements and changes to the image's dpi, height, and width.
+
+By the end of the course, | had learned a lot of new concepts and had a decent handle on them, such as
+error bars and histograms. | learned a lot from this training.
+
+Thank you,
+
+Krutarth Jaiswal.
+
+Data Visualization with Matplotlib. pdf (https://northeastern.instructure.com/users/174600/files/15813834?
+
+wrap=1 &verifier=84rte3715Kw6 PJ4EuuoPrQdXOVnnuA6bOMWSYRTE) &
+(https:/northeastern.instructure.com/users/174600/files/15813834/download?
+
+verifier=84rtc3 715 Kw6PJ4EuuoPrQdXOVnnuA6ébOMwSYRTF&download_frd=1)
+S\Renly
+
+(https: Zizheng Song (https://northeastern.instructure.com/courses/108806/users/173604) .
+Yesterday
+Hi everyone,
+
+The following visualizations show both ethical and unethical visualizations from a business organization
+showing the overall trend in interest rates in five years.
+
+Same Data, Different Y-Axis
+
+Interest Rates Interest Rates
+3.154% 3.50%
+3.15255 3.00%
+3.150% 2.50%
+3.148% 2.00%
+3.146% 1.50%
+3.144% 1,00%
+3.142%, [ 0.50%
+3.140%. a i} 0.00%
+2008 2009 2010 2011 2012 2008 2007 2010 2011 2012
+
+Of the two bar plots, the first one is unethical, while the second plot is ethical. When creating bar graphs,
+the y axis starts from a zero baseline and goes up to the highest point of represented data. However, like in
+the first plot, a bar graph may ignore the zero-baseline or truncate the data to suit the data. This is
+manipulation and is unethical and inappropriate, and may be misleading. For instance, in the first plot, the y
+axis is truncated, and the graph shows a steady upward trend, which is not the case. In addition, not setting
+the y-axis origin as zero exaggerates the small differences that cause misinformation. This can only be
+fixed by always setting the origin as zero and applying the appropriate scale to capture the small
+differences.
+
+On the other hand, the second bar graph is appropriate and displays an ethical data representation.
+Aspects like the y axis having an origin at zero, a well-labeled axis, a suitable scale, and an independent
+variable are on the x-axis, the dependent variable being on the y axis and the bars being distinct make the
+second bar graph give a correct impression. Data visualization can be impactful to both the audience and
+the business in a way that it gives the audience insights into the issue being addressed by portraying
+meaningful information. Visualization enables continuous monitoring of the strategies applied and allows
+data-driven decisions that improve the business performance and outcome for the business. In addition,
+Visualization plays a significant role in building models that ease the process of problem-solving.
+
+Reference
+
+Correll, M. (2019, May). Ethical dimensions of visualization research. In Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems (pp. 1-13).
+
+Zizheng Song
+S\Renly
+ihttps 2, Mohit Jitendrabhai Patel (https://northeastern.instructure.com/courses/108806/users/172701)
+Yesterday
+
+Hello Everyone,
+
+Ggplot 2 is a package in R that helps us to plot complex graphs easily for any kind of dataset and also
+gives us flexibility to add many attributes which in return help us to present the data very accurately and
+precisely.
+
+My learnings for the course of "Data Visualization with Ggplot" are as mentioned below:
+
+1. We started the course by finding the structure of dataset with str() command.
+
+2. We continued to make some simple scatter plots using ggplot function and adding attributes to it in aes
+function.
+
+3. We added the regression line with the help of geom_smocth function to our plot
+
+4. We also used stat_smooth that helps us to find the presence of overlapping in our dataset.
+
+5. We then used the box plots that helped us to see the outliers that are present in our data and affect the
+accuracy of analysis. So, this plots are quite important to remove outliers.
+
+6. We then see the concept of faceting in ggplot.
+
+7. Ithelps us to split a plot in matrix of panels so that we can easily understand it. Each panel will show a
+different subset of the dataset that we have used.
+
+8. We also learned about coord_cartesian function that helps us to retain data without losing it and one
+coord_flip that helps us to flip the x and y axis to adjust the visuals according to its presentation.
+
+So, Overall this course was quite informative and we learnt many new things that will be very helpful during
+our future assignments and projects.
+
+Thank You
+
+Certificate 3. pdf (https://northeastern.instructure.com/users/172701/files/15828174?
+(https:/northeastern.instructure.com/users/172701/flles/15828174/download?
+
+verifier=bOglcyUIVpPCXKmW7 YAOfjeNHwg07JeZxeDQxmgg&download_frd=1)
+Edited by Mohit Jitendrabhai Patel (https:/northeastern.instructure.com/courses/108806/users/172701) on Jun 13 at 5pm
+
+S\Renly
+
+ 
+
+(https: Manan Soni (He/Him) {(https://northeastern.instructure.com/courses/108806/users/169418)
+Yesterday
+Hi everyone,
+
+I've completed "Intermediate Data Visualization with ggplot2" this course is highly recommended to people.
+| personally felt that at some point | needed those plottings.
+
+| have some findings which are mentioned below.
+
+1) Understanding scatter plots and using ggplot2 how you can make it more accurate using functions like
+geom_smooth, stat_smooth, and some parameters to that adjust the plotting such as changing the model
+to loess and LM. Until yesterday, | was doing it in a totally wrong way and didn't know how to plot the
+standard error range even.
+2) How you can manipulate colors with respect to another variable in case a variable is categorical and plot
+their respective lines of performance.
+
+3) Using the loess and stat_smooth we can adjust the confidence interval and get the appropriate line.
+
+4) Plot count to overcome the density like plotting where a lot of points come together. I've already faced
+this kind of problem where it became crowded instead | learned a new way in which we can plot count over
+that part using a scatterplot. Geom_count does that for you, even with that we can modify with variables
+and colors.
+
+5) Dealing with heteroscedasticity and homoscedasticity using quantiles that were very new for me to be
+honest. Using Geom_quantiles we can manipulate with 3 different values of quantiles and plot something
+like FIG1 and | was doing as shown in Fig2.
+
+Number of library subscriptions (log)
+
+ 
+
+2500000
+
+1500000
+
+Price
+
+Fig.2
+
+Q so00000
+
+ 
+
+ 
+
+20000 40000 60000 80000 100000
+
+Income
+
+6) Calculating Statistics and making it normalized, basically calculating mean_sdl which is the mean with an
+upper and lower value. Calculating 95% confidence and making it normalized to plot with jitter.
+understanding QQ plot how theoretical matches with samples.
+7) Difference why plotting with coord_cartesian, scale_x_continuous and xlim. scale_x_continuous isused
+when you need to focus of some parts of the graph and it filters out the samples where. Change the ratio
+for respective data like continues such as frequencies or stock market where we can adjust the ratio to
+20:1. These were the amazing things.
+
+8) How to flip barplots and their modification to best visualization. Free the X-axis or Y-axis names where
+there are many levels. As you can see | haven't rotated it and some names just cut off the diagram. That's
+why | told this course is so powerful.
+
+Histogram of Sectors
+
+15
+5
+linn m |
+
+2 §
+
+Deparment of Pi
+
+: 3
+
+&
+
+Department of Transportat
+Fire and Reseus S.
+
+Department of General Ser
+
+iparimentof Health and Human Se
+
+9) Understanding of facet layers and how we can use them for categorical and numerical data. I've used
+them but how to adjust for proper visualization, What to do when a lot of categories. How to free Y-axis or
+X-axis labels. Using the above methods we can compare multiple variables at once using facets.
+
+10) Heatmaps which with facet was new to me. It is amazing how we can plot heat maps using different
+categorical variables at the same time.
+
+Conclusion:
+
+This course had so much potential and ggplot2 is a way more powerful library than any.
+Thanks and Regards,
+
+Manan Soni
+
+certificate. pdf (https://northeastern.instructure.com/users/169418/files/15815680?
+wrap=1&verifier=QLFTMIIZ6rpgC5VE9J9kc3D8TkmrvW67iqUnulk8) 1
+(https:/northeastern.instructure.com/users/169418/flles/15815680/download?
+verifier=QLFTMIIZérpgC5VE9J9kc3D8Tkmrvw 67iqUnulk8&download_frd=1)
+
+ 
+
+Reply
+ihttps 2, Parth Rajeshkumar Savaliya (https://northeastern.instructure. com/courses/108806/users/170090),
+Yesterday
+
+Hello everyone,
+
+| finished the "Introduction to Data Visualization with Matplotlib” course, during which | learnt a lot and saw
+a lot of different ways to visualize data. | would like to highlight a few key points.
+
+9° |'ve figured out how to use the "pyplot" sub module of the matplotlib package.
+o Wecan use matplotlib. subplots() to build many graphs in a single plot. For Austin and Seattle weather
+data, | use this function to display monthly temperature and precipitation.
+
+o Using parameters such as marker, color, and lifestyle to customize the appearance of the plots.
+
+o Learnt how to customize the axis label and add tiles into the plot.
+
+o The subplots () method is used to construct an array of subplots by defining rows and columns in
+advance.
+
+o Using the ax.twinx() method, plot time series of different variables by constructing twin Axes that share
+the x-axis. Example
+
+matplotlib.axes.Axes.twinx() function Example
+
+ 
+
+ 
+
+ 
+
+o 2 4 6 8 10
+time (s)
+
+o We also learned how to plot two scales in various twin axes objects.
+
+o We learnt different chart such as bar chart, histogram and step histogram to compare data.
+
+o To quantify the difference in means, we added error bars to the bar chart and determined the standard
+deviation for each group.
+
+oe Did Quantitative comparison with the help of scatter plot.
+
+o Encoding the time by the help of the color.
+
+o Learn how to save the plot into .png/.jpg or other format using savefig() method.
+
+o Changing the dimension of the figure before saving it.
+
+Overall, | found this lesson and certification to be quite informative, and | would definitely want to use what |
+learned in this tutorial to future projects.
+
+Regrads,
+
+Parth Savaliya
+
+Edited by Parth Rajeshkumar Savaliya (https:/mortheastem.instructure.com/courses/108806/users/170090) on Jun 12 at 8:32pm
+
+ 
+
+|.| certificate 3.pdf (https:/mortheastem.instructure.com/files/15816133/download?
+
+download _frd=1 &verifier=7VIbOleEYZf3B R4ucTcKx4PGfOsdliC ELLZxGKke)
+
+“Reply %
+(https: Ravikumar Mineshbhai Patel (https://northeastern.instructure.com/courses/108806/users/176741) .
+Yesterday
+
+Hello everyone,
+
+Through the learning from Datacamp, | came to know many different topics and used them practically with
+proper understanding. In the Introduction to Data Visualization with Matplotlib, | learned the below concepts
+and applied them as well in the practical. In this tutorial, | learned the concepts by using Python.
+
+| have learned-
+
+o What is the Matplotlib, and how it can be used?
+o Customization of plots.
+
+o What is meant by small multiples?
+
+o In the plotting time series, | have learned about plotting time-series data, and how to plot them with
+different variables.
+
+o Annotating the time-series data.
+
+o In the quantitative comparisons and statistical visualizations, their comparisons with the bar charts,
+histograms, and statistical plotting can be used to work with errors also and scatter plots.
+
+o After all, | learned how to share visualizations with others. There | learned how to prepare figures, save
+graphs, and automate figures.
+
+| have performed the following concepts:
+
+o Adding data to an axes object, customizing data appearance, customizing axis labels, and adding titles
+and then working on small multiples.
+
+eo Annotating time-series data using some functionalities. Created different bar charts, and histograms,
+adding error bars to the bar chart and a plot, scatter plots, and encoding time by color.
+
+o Then, | learned to switch between styles and save a file several times.
+
+o At last, | found unique values of a column and automated the visualization as well.
+
+Overall, | came to a great experience through learning very interesting concepts and applied those
+concepts in practicals.
+
+Ravikumar Patel- Introduction to Data Visualization with Matplotlib.pdf
+(https://northeastern.instructure.com/users/176741/files/15817660?
+
+(https:/northeastern.instructure.com/users/176741/files/15817660/download?
+verifier=1clOEOBbmpK9VijbiK3zkU8klwq1 UvPVayndvkW 6&download_frd=1)
+
+Regards, Ravikumar.
+
+S\Renly
+ihttps 2, Shivam Tyagi _(https://northeastern.instructure.com/courses/108806/users/168207) .
+Yesterday
+
+Hello Everyone,
+
+Data visualization is the process of converting data into a visual representation, as a map or graph, in order
+to make data simpler to comprehend and extract insights from. Data visualization's major purpose is to
+make it simpler to see patterns, trends, and outliers in massive data sets. Information graphics, information
+visualization, and statistical visuals are all terms that are frequently used indiscriminately.
+
+| have completed the course Intermediate Data Visualization with ggplot2
+The course was focusing on the following four sections :
+
+o Statistics: In this, | created a scatterplot to know the relationship between two variable by using
+ggplot(). Modifying stat smooth, | learned about statistics related to various geoms, such as smoothing
+and lines. | studied how to plot a variety of statistical methodologies. A variety of linear models,
+descriptive and inferential statistics and unique features are among the approaches used. | also
+discovered that several geom functions are linked to stat functions, such as geom count() = stat sum(),
+geom quartile() = stat quartile(), and so on, and that these methods may be used directly when creating
+a plot visualization.
+o Coordinates : The Coordinates strands provide particular and extremely important methods for
+transmitting data quickly and precisely. We looked at how to use these layers successfully in order to
+represent lognormal datasets, variables with units, and periodic data clearly. | learned about the
+coord_cartesian() function in ggplot which can be used to control both the x and y planes of plots.
+
+count
+
+an:
+
+fey
+
+a:
+
+ 
+
+count
+
+o Facets : Facets allow us to divide plots into numerous panes, each of which displays a part of the
+dataset. We learnt how to wrap facets, organize them in a grid, and add custom labelling in this section.
+To divide plots into rows and columns, use the Facet grid() method. The facet wrap() function may also
+be used when you wish both the x and y axes on each plot to be free.
+
+o Best Practices: The most crucial aspect of this section is that once we have the technical ability to
+create outstanding visualizations, we must make them as relevant as feasible. Heat maps, pie charts,
+and dynamite plots are three plot designs that are frequently deprecated in the data visualization field. |
+learned how to avoid the traps of these plots and how to avoid repeating the same mistakes.
+
+Altogether, | found this lesson and certification to be quite instructive, and | would definitely want to use
+what | learned in this instruction to future projects. | learnt and studied in-depth principles of ggplot functions
+in R, which would undoubtedly helps me in my future analysis, research and projects.
+
+Attaching my completion certificate below!
+Certificate GGplot2-1. pdf (https://northeastern instructure.com/users/168207/files/15819085?
+
+(https:/northeastern.instructure.com/users/168207/files/15819085/download?
+verifier=CaY PeVESzY 8vDK4TWWbWEWvoepr8ILgU1 OWM2xK5&download_frd=1)
+
+Thanks and Regards,
+Shivam Tyagi
+
+Rely 4
+
+eR Sanjit Singh (https://northeastern.instructure.com/courses/108806/users/170962)
+UB 6:15pm
+
+Hi Everyone,
+
+| have successfully completed my tutorial of Introduction to Data Visualization using matplotlib.
+Here are my learnings
+
+Part 1:
+
+Learnt how to make a figure and axes and adding data into them. Customizing the plot, Customizing axis
+labels and adding titles etc.
+
+To create multiple graphs in a single plot we can use matplotlib.subplots().
+
+Part 2:
+
+Here we have plotted time series data. To detect the pattern of data we use visualization techniques.
+We learnt how to define function plot variables. Defined a function that plots time-series data.
+
+Part 3:
+
+In this part we learnt about different visualization techniques like histograms, bar chart, scatter plot, Box
+plot.
+
+Part 4 :
+
+We learnt about saving files with different styles & formats, switching between styles & automate the
+visualization as per input.
+
+Overall good learning
+
+Thanks & Regards
+
+Sanjit Singh
+
+| certificate 3 Sanjit Singh. pdf (https:/mortheastem.instructure.com/files/15828626/download?
+
+Rene
+
+ 
+
+ 
+
+Dhairya Dave (https://northeastern.instructure.com/courses/108806/users/136459) .
+6:39pm
+
+Hi Everyone,
+
+| completed the course "Intermediate Data Visualization with ggplot2," which comes highly recommended. |
+had the impression that | would require those plottings at some time.
+
+I've made some discoveries, which I've listed here.
+
+1) Learn how to use ggplot2 to make scatter plots more accurate by utilizing functions like geom smooth
+and stat smooth, as well as certain options to tweak the charting, such as changing the model to loess and
+LM. | was doing it all incorrectly until yesterday, and | didn't even know how to calculate the standard error
+range.
+
+2) In the instance of a categorical variable, how can you alter colours in relation to another variable and plot
+their corresponding lines of performance?
+
+3) We may change the confidence interval and acquire the suitable line by using loess and stat smooth.
+
+4) Use plot count to get around the density that occurs when a lot of points are plotted together. Instead of
+learning a new approach to plot count across that area using a scatterplot, I've already experienced this
+type of scenario where it grew congested. Geom count takes care of it for you, and we can still tweak it
+using variables and colours.
+
+5) Using quantiles to deal with heteroscedasticity and homoscedasticity, which was a completely new
+concept for me. With Geom quantiles, we can play around with three different quantile values and plot the
+results.
+
+6) Calculating statistics and normalizing them, which entails computing mean sdl, which is the mean with an
+upper and lower value. Calculating 95% confidence and normalizing it for plotting with jitter. Understanding
+QQ plots and how they correspond to samples.
+
+7) What's the difference between coord cartesian, scale x continuous, and xlim when plotting? When you
+need to focus on a certain region of the graph, scale x continuous is employed, and it filters out the samples
+that aren't needed. Change the ratio for specific data, such as frequencies or the stock market, where the
+ratio may be set to 20:1. These were the incredible events.
+
+8) How to flip barplots and change them for better display. Where there are multiple levels, remove the X-
+axis or Y-axis names. As you can see, | haven't rotated it, and some of the names have been taken out.
+That is why | stated that this training is quite effective.
+
+9) Familiarity with facet layers and how to apply them to both category and numerical data. I've used them
+before, but I'm not sure how to adapt for optimal visualization, or what to do when there are several
+categories. How to remove Y-axis or X-axis labels from a graph. We may use facets to compare many
+variables at once using the methods described above.
+
+10) Heatmaps, which | had never seen before with a facet. It's incredible how we can create heat maps with
+several category variables at once.
+
+Conclusion:
+
+This course has a lot of promise, and ggplot2 is far more powerful than any other package.
+Regards,
+Dhairya Dave
+
+intermediatecertificate. pdf (https://northeastern.instructure.com/users/136459/files/15828761?
+
+(https:/northeastern.instructure.com/users/136459/files/15828761/download?
+verifier=Cd531pS3Gasr5YJkST1PXdqAxmiZé6tVXbcwvxbc?9 &download_frd=1)
+
+Rely 4
+
+ 
+
